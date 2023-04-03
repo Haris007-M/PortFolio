@@ -10,8 +10,8 @@ const MainPage = () => {
               </div>
               <div className="col-6"></div>
             </div>
-            <div className="row my-5 d-flex justify-center">
-              <div className="col-lg-8 col-12">
+            <div className="row my-5 ">
+              <div className="col-lg-8 col-12 ">
                 <h1 className="card-title mb-4" id="headingmain">
                   Welcome To <br />{" "}
                   <span id="personelportfolio">My Personel Portfolio</span>
@@ -89,13 +89,13 @@ const MainPage = () => {
               </div>
             </div>
 
-            <div className="row">
-              <div className="col-12">
+            <div className="row ">
+              <div className="col-12 ">
                 <h1 className="card-title">My Skills</h1>
 
-                <div className="row">
-                  <div className="col-lg-6 col-12">
-                    <div className=" skillscard">
+                <div className="row ">
+                  <div className="col-lg-6 col-12 ">
+                    <div className="skillscard">
                       <div className="card-body">
                         <h5 className="card-title titleskills ">HTML/CSS</h5>
                         <p className="card-text">
