@@ -8,19 +8,22 @@
 
 @keyframes slideInFromLeft {
   0% {
-    transform: translateX(-100%);
+    transform: translateY(-100%);
+    opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
 #personelportfolio {
+  position: relative;
   background: linear-gradient(113.63deg, #ca0e5f 6.76%, #38b5e7 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: slideInFromLeft 0.5s;
+  animation: slideInFromLeft 2.5s;
 }
 .whoamikheading {
   padding: 10px;
