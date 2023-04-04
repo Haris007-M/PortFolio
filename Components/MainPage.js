@@ -8,7 +8,9 @@ const MainPage = () => {
               <div className="col-lg-6 col-8">
                 <h1 className="whoamikheading">Portfolio</h1>
               </div>
-              <div className="col-6"></div>
+              <div className="col-lg-6 col-4" id="imgcol">
+              <div class="img"></div>
+              </div>
             </div>
             <div className="row my-5 ">
               <div className="col-lg-8 col-12 ">

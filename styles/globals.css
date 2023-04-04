@@ -16,6 +16,20 @@
     opacity: 1;
   }
 }
+#imgcol{
+  display: flex;
+  justify-content: flex-end;
+}
+.img{
+  width: 3.8em;
+  height: 3.8em;
+  background-image: url("/haris.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: 25px;
+}
 
 #personelportfolio {
   position: relative;
@@ -375,6 +389,7 @@ a {
   border-radius: 15px;
   margin: auto;
 }
+
 
 .cardabout .share {
   margin-top: 1em;
