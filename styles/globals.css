@@ -425,6 +425,17 @@ a {
   cursor: pointer;
 }
 
+.card-texts{
+ 
+  color: white;
+  border-radius: 5px;
+  display: flex;
+}
+
+#updated{
+  display: flex;
+  justify-content: flex-end;
+}
 
 @media screen and (max-width: 990px) {
   .card {

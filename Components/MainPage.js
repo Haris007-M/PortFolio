@@ -9,7 +9,7 @@ const MainPage = () => {
                 <h1 className="whoamikheading">Portfolio</h1>
               </div>
               <div className="col-lg-6 col-4" id="imgcol">
-              <div class="img"></div>
+                <div class="img"></div>
               </div>
             </div>
             <div className="row my-5 ">
@@ -118,7 +118,6 @@ const MainPage = () => {
               <div className="col-lg-12 col-12">
                 <div class="cardabout">
                   <h1 className="card-title">
-                    
                     <u> About Me</u>
                   </h1>
                   <div className="row my-3">
@@ -202,11 +201,13 @@ const MainPage = () => {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-12">
-                <p className="card-texts text-white">
-                  <small>Last updated 3 mins ago</small>
-                </p>
+            <div className="row my-2 card-texts">
+              <div className="col-lg-6 col-12">
+                <small>Design by Muhammad Haris</small>
+                <br />
+              </div>
+              <div className="col-lg-6 col-12" id="updated">
+                <small>Updated On 4 /4 /2023</small>
               </div>
             </div>
           </div>
