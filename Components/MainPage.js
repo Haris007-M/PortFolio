@@ -78,7 +78,8 @@ const MainPage = () => {
 
             <div className="row mt-5">
               <div className="col-12">
-                <h1 className="card-title">My Projects</h1>
+              <div className="cardprojects">
+                 <h1 className="card-title">My Projects</h1>
                 <div class="container" id="container">
                   <div className="row">
                     <div className="col-lg-4 col-12">
@@ -105,12 +106,13 @@ const MainPage = () => {
                   </div>
                 </div>
               </div>
+               
+              </div>
             </div>
             <div className="row mt-5">
               <div className="col-lg-12 col-12">
-                <h1 className="card-title">About Me</h1>
-
                 <div class="cardabout">
+                  <h1 className="card-title">About Me</h1>
                   <div className="row my-3">
                     <div className="col-12">
                       <div class="img"></div>
