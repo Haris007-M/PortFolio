@@ -445,4 +445,8 @@ a {
   .cards, .cards2 , .cards3{
  margin-top: 12px;
   }
+  #updated{
+    display: flex;
+    justify-content: flex-start;
+  }
 }
