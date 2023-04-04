@@ -13,7 +13,7 @@ const MainPage = () => {
             <div className="row my-5 ">
               <div className="col-lg-8 col-12 ">
                 <h1 className="card-title mb-4" id="headingmain">
-                  Welcome To <br />{" "}
+                  Welcome To <br />
                   <span id="personelportfolio">My Personel Portfolio</span>
                 </h1>
                 <p className="card-text">
@@ -27,10 +27,12 @@ const MainPage = () => {
                   <div className="col-lg-12">
                     <div id="card" class="card">
                       <div class="content">
-                        <h2>Skills</h2>
+                        <h2>
+                          {" "}
+                          <u>Skills</u>{" "}
+                        </h2>
                         <div className="row">
                           <div className="col-6">
-                            {" "}
                             <span>1) HTML/CSS</span>
                           </div>
                           <div className="col-6">
@@ -78,41 +80,45 @@ const MainPage = () => {
 
             <div className="row mt-5">
               <div className="col-12">
-              <div className="cardprojects">
-                 <h1 className="card-title">My Projects</h1>
-                <div class="container" id="container">
-                  <div className="row">
-                    <div className="col-lg-4 col-12">
-                      <a href="https://byc.ai">
-                        <div class="cards">
-                          <span></span>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="col-lg-4 col-12">
-                      <a href="https://next-js-blog-nctu.vercel.app/">
-                        <div className="cards2">
-                          <span></span>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="col-lg-4 col-12">
-                      <a href="https://movie-app-in-next-js-alpha.vercel.app/">
-                        <div className="cards3">
-                          <span></span>
-                        </div>
-                      </a>
+                <div className="cardprojects">
+                  <h1 className="card-title">
+                    <u> My Projects</u>
+                  </h1>
+                  <div class="container" id="container">
+                    <div className="row">
+                      <div className="col-lg-4 col-12">
+                        <a href="https://byc.ai">
+                          <div class="cards">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-4 col-12">
+                        <a href="https://next-js-blog-nctu.vercel.app/">
+                          <div className="cards2">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-4 col-12">
+                        <a href="https://movie-app-in-next-js-alpha.vercel.app/">
+                          <div className="cards3">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-               
               </div>
             </div>
             <div className="row mt-5">
               <div className="col-lg-12 col-12">
                 <div class="cardabout">
-                  <h1 className="card-title">About Me</h1>
+                  <h1 className="card-title">
+                    
+                    <u> About Me</u>
+                  </h1>
                   <div className="row my-3">
                     <div className="col-12">
                       <div class="img"></div>
