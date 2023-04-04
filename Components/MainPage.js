@@ -22,7 +22,7 @@ const MainPage = () => {
                   the next level and build awesome apps.
                 </p>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-12">
                 <div className="row">
                   <div className="col-lg-12">
                     <div id="card" class="card">
