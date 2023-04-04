@@ -5,14 +5,22 @@
 #body {
   background-color: #131335;
 }
-/* #backgroundcontainerfluid{
-    background-color: #131335;
-} */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 #personelportfolio {
   background: linear-gradient(113.63deg, #ca0e5f 6.76%, #38b5e7 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  animation: slideInFromLeft 0.5s;
 }
 .whoamikheading {
   padding: 10px;
@@ -56,6 +64,7 @@
   padding: 10px;
   margin: 5px;
   background-color: #067f8a00;
+  transition: color 0.3s, font-size 0.3s;
 }
 #github {
   font-size: 20px;
