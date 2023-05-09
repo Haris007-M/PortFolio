@@ -16,11 +16,11 @@
     opacity: 1;
   }
 }
-#imgcol{
+#imgcol {
   display: flex;
   justify-content: flex-end;
 }
-.img{
+.img {
   width: 3.8em;
   height: 3.8em;
   background-image: url("/haris.jpeg");
@@ -163,7 +163,7 @@ a {
 .content::before {
   opacity: 0;
   transition: opacity 300ms;
-  content: ' ';
+  content: " ";
   display: block;
   background: white;
   width: 50px;
@@ -178,12 +178,18 @@ a {
 
 .card::before {
   opacity: 0;
-  content: ' ';
+  content: " ";
   position: absolute;
   display: block;
   width: 90%;
   height: 240px;
-  background: linear-gradient(90deg, transparent, #ff2288, #387EF0, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ff2288,
+    #387ef0,
+    transparent
+  );
   transition: opacity 300ms;
   animation: rotation_9018 3000ms infinite linear;
   animation-play-state: paused;
@@ -196,7 +202,7 @@ a {
 
 .card::after {
   position: absolute;
-  content: ' ';
+  content: " ";
   display: block;
   width: 100%;
   /* height: 254px; */
@@ -214,9 +220,8 @@ a {
   }
 }
 
-
 /* ____________________________________Card Project css__________________________________________________ */
-.cardprojects{
+.cardprojects {
   width: 100%;
   padding-bottom: 50px;
   background: #101024;
@@ -229,7 +234,7 @@ a {
 }
 
 .cards {
-  /* margin: 2%; */
+  margin-bottom: 2%;
   background: #ffffff;
   width: 100%;
   height: 300px;
@@ -247,7 +252,8 @@ a {
   background-repeat: no-repeat;
 }
 .cards2 {
-  /* margin: 2%; */
+  margin-bottom: 2%;
+
   background: #ffffff;
   width: 100%;
   height: 300px;
@@ -282,6 +288,24 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
+.cards4 {
+  /* margin: 2%; */
+  background: #ffffff;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 30px;
+  background-image: url("/project4.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .cards > span {
   display: block;
@@ -294,6 +318,11 @@ a {
   max-width: 40px;
 }
 .cards3 > span {
+  display: block;
+  margin: auto;
+  max-width: 40px;
+}
+.cards4 > span {
   display: block;
   margin: auto;
   max-width: 40px;
@@ -317,13 +346,18 @@ a {
   transform: scale(0.98);
   box-shadow: none;
 }
+#container:hover .cards4 {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
+  box-shadow: none;
+}
 
 #container:hover .cards:hover {
   transform: scale(1);
   filter: blur(0px);
   opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
-  /* background: #A82C2C; */
   color: white;
 }
 #container:hover .cards2:hover {
@@ -331,7 +365,6 @@ a {
   filter: blur(0px);
   opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
-  /* background: #A82C2C; */
   color: white;
 }
 #container:hover .cards3:hover {
@@ -339,7 +372,13 @@ a {
   filter: blur(0px);
   opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
-  /* background: #A82C2C; */
+  color: white;
+}
+#container:hover .cards4:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
   color: white;
 }
 /* _______________________________________-Css about ____________________________________________________________ */
@@ -390,7 +429,6 @@ a {
   margin: auto;
 }
 
-
 .cardabout .share {
   margin-top: 1em;
   display: flex;
@@ -425,14 +463,13 @@ a {
   cursor: pointer;
 }
 
-.card-texts{
- 
+.card-texts {
   color: white;
   border-radius: 5px;
   display: flex;
 }
 
-#updated{
+#updated {
   display: flex;
   justify-content: flex-end;
 }
@@ -442,10 +479,13 @@ a {
     width: 100%;
     margin-top: 20px;
   }
-  .cards, .cards2 , .cards3{
- margin-top: 12px;
+  .cards,
+  .cards2,
+  .cards3
+  .cards4 {
+    margin-top: 12px;
   }
-  #updated{
+  #updated {
     display: flex;
     justify-content: flex-start;
   }

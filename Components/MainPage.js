@@ -88,23 +88,30 @@ const MainPage = () => {
                   </h1>
                   <div class="container" id="container">
                     <div className="row">
-                      <div className="col-lg-4 col-12">
+                      <div className="col-lg-6 col-12">
                         <a href="https://byc.ai">
                           <div class="cards">
                             <span></span>
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 col-12">
+                      <div className="col-lg-6 col-12">
                         <a href="https://next-js-blog-nctu.vercel.app/">
                           <div className="cards2">
                             <span></span>
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 col-12">
+                      <div className="col-lg-6 col-12">
                         <a href="https://movie-app-in-next-js-alpha.vercel.app/">
                           <div className="cards3">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <a href="https://ecommerce-gilt-nine.vercel.app/">
+                          <div className="cards4">
                             <span></span>
                           </div>
                         </a>
