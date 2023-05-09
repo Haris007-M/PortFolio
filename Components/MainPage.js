@@ -89,28 +89,28 @@ const MainPage = () => {
                   <div class="container" id="container">
                     <div className="row">
                       <div className="col-lg-6 col-12">
-                        <a href="https://byc.ai">
+                        <a href="https://byc.ai" target="_blank">
                           <div class="cards">
                             <span></span>
                           </div>
                         </a>
                       </div>
                       <div className="col-lg-6 col-12">
-                        <a href="https://next-js-blog-nctu.vercel.app/">
+                        <a href="https://next-js-blog-nctu.vercel.app/" target="_blank">
                           <div className="cards2">
                             <span></span>
                           </div>
                         </a>
                       </div>
                       <div className="col-lg-6 col-12">
-                        <a href="https://movie-app-in-next-js-alpha.vercel.app/">
+                        <a href="https://movie-app-in-next-js-alpha.vercel.app/" target="_blank">
                           <div className="cards3">
                             <span></span>
                           </div>
                         </a>
                       </div>
                       <div className="col-lg-6 col-12">
-                        <a href="https://ecommerce-gilt-nine.vercel.app/">
+                        <a href="https://ecommerce-gilt-nine.vercel.app/" target="_blank">
                           <div className="cards4">
                             <span></span>
                           </div>
