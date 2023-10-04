@@ -145,6 +145,20 @@ const MainPage = () => {
                           </div>
                         </a>
                       </div>
+                      <div className="col-lg-6 col-12">
+                        <a href="https://crypto-z-agency.netlify.app/" target="_blank">
+                          <div className="cards10">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <a href="https://smashcode-alia-farid.netlify.app/" target="_blank">
+                          <div className="cards11">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -159,7 +173,7 @@ const MainPage = () => {
                   <div class="container" id="container">
                     <div className="row">
                       <div className="col-lg-6 col-12">
-                        <a href="https://byc.ai" target="_blank">
+                        <a href="https://tronix-2zzy.vercel.app/" target="_blank">
                           <div class="cards5">
                             <span></span>
                           </div>
