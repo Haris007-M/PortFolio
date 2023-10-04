@@ -84,7 +84,7 @@ const MainPage = () => {
               <div className="col-12">
                 <div className="cardprojects">
                   <h1 className="card-title">
-                    <u> My Projects</u>
+                    <p> My Live Projects</p>
                   </h1>
                   <div class="container" id="container">
                     <div className="row">
@@ -95,27 +95,118 @@ const MainPage = () => {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-6 col-12">
+                      {/* <div className="col-lg-6 col-12">
                         <a href="https://next-js-blog-nctu.vercel.app/" target="_blank">
                           <div className="cards2">
                             <span></span>
                           </div>
                         </a>
-                      </div>
+                      </div> */}
                       <div className="col-lg-6 col-12">
+                        <a href="https://orders.ragecustom.com/" target="_blank">
+                          <div className="cards2">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      {/* <div className="col-lg-6 col-12">
                         <a href="https://movie-app-in-next-js-alpha.vercel.app/" target="_blank">
                           <div className="cards3">
                             <span></span>
                           </div>
                         </a>
-                      </div>
+                      </div> */}
                       <div className="col-lg-6 col-12">
+                        <a href="https://www.exposportmedia.net" target="_blank">
+                          <div className="cards3">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      {/* <div className="col-lg-6 col-12">
                         <a href="https://ecommerce-gilt-nine.vercel.app/" target="_blank">
                           <div className="cards4">
                             <span></span>
                           </div>
                         </a>
+                      </div> */}
+                      
+                      <div className="col-lg-6 col-12">
+                        <a href="http://194.113.74.214:3001/" target="_blank">
+                          <div className="cards4">
+                            <span></span>
+                          </div>
+                        </a>
                       </div>
+                      <div className="col-lg-6 col-12">
+                        <a href="http://85.195.124.55:3000/" target="_blank">
+                          <div className="cards9">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-5">
+              <div className="col-12">
+                <div className="cardprojects">
+                  <h1 className="card-title">
+                    <p> My Dummy Live Projects</p>
+                  </h1>
+                  <div class="container" id="container">
+                    <div className="row">
+                      <div className="col-lg-6 col-12">
+                        <a href="https://byc.ai" target="_blank">
+                          <div class="cards5">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <a href="https://next-js-blog-nctu.vercel.app/" target="_blank">
+                          <div className="cards6">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      {/* <div className="col-lg-6 col-12">
+                        <a href="https://orders.ragecustom.com/" target="_blank">
+                          <div className="cards2">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div> */}
+                      <div className="col-lg-6 col-12">
+                        <a href="https://movie-app-in-next-js-alpha.vercel.app/" target="_blank">
+                          <div className="cards7">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      {/* <div className="col-lg-6 col-12">
+                        <a href="https://www.exposportmedia.net" target="_blank">
+                          <div className="cards3">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div> */}
+                      <div className="col-lg-6 col-12">
+                        <a href="https://ecommerce-gilt-nine.vercel.app/" target="_blank">
+                          <div className="cards8">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      {/* <div className="col-lg-6 col-12">
+                        <a href="http://194.113.74.214:3001/" target="_blank">
+                          <div className="cards4">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div> */}
                     </div>
                   </div>
                 </div>
